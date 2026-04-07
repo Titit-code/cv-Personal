@@ -121,9 +121,26 @@ h2 {
   transition: 0.6s;
 }
 
+.profile-pic {
+  display: block;
+  margin: 0 auto 20px;
+}
+
 .fade.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /* ========================= */
